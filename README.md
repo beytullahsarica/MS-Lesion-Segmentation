@@ -1,8 +1,16 @@
 # MS-Lesion-Segmentation
-This repository contains codes for Dense Residual U-Net with AG, ECA, and ASPP for Multiple Sclerosis (MS) lesion segmentation.
 
-**cite** contains a Tensorflow implementation for our [paper]().  If you find this code useful in your research, please consider citing:
+This repository contains the implementation of our _xxx_ paper: [__title of paper__](link to paper).
 
+## How to cite:
+If you use this repository, please cite our paper:
 ```
-
+  @article{sarica2022,
+    title={},
+    author={},
+    journal={},
+    volume={},
+    year={},
+    publisher={}
+  }
 ```
