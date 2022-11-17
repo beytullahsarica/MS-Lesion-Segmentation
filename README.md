@@ -13,7 +13,7 @@ The results obtained from both datasets are available in the _results_ folder.
 ## How to cite:
 If you use this repository, please cite this study as given:
 ```
-  @article{sarica2022,
+  @article{author,
     title={},
     author={},
     journal={},
