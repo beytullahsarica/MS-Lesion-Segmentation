@@ -1,6 +1,6 @@
 # MS-Lesion-Segmentation
 
-This repository contains the implementation of our _xxx_ paper: [__title of paper__](link to paper).
+This repository contains the implementation of our _A Dense Residual U-Net for Multiple Sclerosis Lesions Segmentation from Multi-Sequence 3D MR Images_ paper: [__title of paper__](link to paper).
 
 ## How to cite:
 If you use this repository, please cite this study as given:
