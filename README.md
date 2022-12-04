@@ -1,6 +1,6 @@
 # MS-Lesion-Segmentation
 
-This repository contains the implementation of our paper submitted to the _Biomedical Signal Processing and Control_ journal: [__A Dense Residual U-Net for Multiple Sclerosis Lesions Segmentation from Multi-Sequence 3D MR Images__](link to paper).
+This repository contains the implementation of our paper submitted to the _Digital Signal Processing_ journal: [__A Dense Residual U-Net for Multiple Sclerosis Lesions Segmentation from Multi-Sequence 3D MR Images__](link to paper).
 
 In this study, we proposed a novel dense residual U-Net model which combines attention gate (AG), efficient channel attention (ECA), and Atrous Spatial Pyramid Pooling (ASPP) to enhance the performance of the automatic MS lesions segmentation. In addition, 3D MR images of FLAIR, T1-w, and T2-w were exploited jointly to perform better MS lesion segmentation.
 
