@@ -14,6 +14,7 @@ from random import seed
 from sklearn.model_selection import train_test_split
 from time import strftime
 import gdown
+import datetime
 
 from augmentation import get_training_augmentation, get_validation_augmentation, get_preprocessing
 from dataloader import DataLoader
@@ -168,7 +169,6 @@ def start_train(dataset="isbi2015", model_name="isbi_dense_res_u_net_ag_eca_aspp
     best_modal_name = f"{dataset}/{rater}_{modality}_{model_name}_fold_{str(fold_name_id)}_{str(width)}_best_model_all.h5"
     model_history = f"{dataset}/{rater}_{modality}_{model_name}_fold_{str(fold_name_id)}_{str(width)}_model_history.npy"
 
-    import datetime
     tensorboard_log_path = os.path.join(root_path, "training_output", dataset, "logs", model_name)
     if not os.path.exists(tensorboard_log_path):
         os.makedirs(tensorboard_log_path)
