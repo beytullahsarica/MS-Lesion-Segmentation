@@ -15,13 +15,13 @@ Generated NPY files from the ISBI2015 and MSSEG2016 training datasets should be 
 ```
 dataset
 |───isbi2015
-    | rater1_images_224.npy
-    | rater1_masks_224.npy
-    | rater2_images_224.npy
-    | rater2_masks_224.npy
+|   | rater1_images_224.npy
+|   | rater1_masks_224.npy
+|   | rater2_images_224.npy
+|   | rater2_masks_224.npy
 |───msseg2016
-    | train_images_224.npy
-    | train_masks_224.npy
+|   | train_images_224.npy
+|   | train_masks_224.npy
 ```
 ## How to train
 To get all options, use -h or --help
