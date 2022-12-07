@@ -10,6 +10,29 @@ Training weights for both datasets are available in the _weights_ folder.
 
 The results obtained from both datasets are available in the _results_ folder.
 
+## Generated NPY files
+Generated NPY files from the ISBI2015 and MSSEG2016 training datasets should be placed to the dataset folder as follows:
+```
+dataset
+|───isbi2015
+    | rater1_images_224.npy
+    | rater1_masks_224.npy
+    | rater2_images_224.npy
+    | rater2_masks_224.npy
+|───msseg2016
+    | train_images_224.npy
+    | train_masks_224.npy
+```
+## How to train
+To get all options, use -h or --help
+```
+python train.py -h
+```
+Here is the training example for the ISBI2015 dataset.
+```
+python train.py --dataset="isbi2015" --model_name="isbi_dense_res_u_net_ag_eca_aspp" --epochs=300 --lr=0.0001
+```
+
 ## How to cite:
 If you use this repository, please cite this study as given:
 ```
