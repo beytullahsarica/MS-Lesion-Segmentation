@@ -28,7 +28,7 @@ To get all options, use -h or --help
 ```
 python train.py -h
 ```
-Here is the training example for the ISBI2015 dataset.
+Here is the training example for the ISBI2015 dataset. Model name can be any of the model json file located in the _models_ folder.
 ```
 python train.py --dataset="isbi2015" --model_name="isbi_dense_res_u_net_ag_eca_aspp" --epochs=300 --lr=0.0001
 ```
