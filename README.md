@@ -36,12 +36,13 @@ python train.py --dataset="isbi2015" --model_name="isbi_dense_res_u_net_ag_eca_a
 ## How to cite:
 If you use this repository, please cite this study as given:
 ```
-  @article{sarica2022dense,
-    title={A Dense Residual U-Net for Multiple Sclerosis Lesions Segmentation from Multi-Sequence 3D MR Images},
+  @article{sarica2023dense,
+    title={A dense residual U-net for multiple sclerosis lesions segmentation from multi-sequence 3D MR images},
     author={Sarica, Beytullah and Seker, Dursun Zafer and Bayram, Bulent},
     journal={International Journal of Medical Informatics},
+    volume={170},
     pages={104965},
-    year={2022},
+    year={2023},
     publisher={Elsevier}
   }
 ```
